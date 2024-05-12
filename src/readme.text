@@ -1,2 +1,14 @@
+----install
 pip install virtualenv 
 pip install flask
+
+
+----Git
+git pull origin master
+git status
+git fetch
+git add .
+git commit -m "comentario del commit"
+git push origin master 
+
+
