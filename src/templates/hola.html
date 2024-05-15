@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Productos con Precios</title>
+    <link rel="stylesheet" href="../templates/style.css">
+</head>
+<body>
+    <h1>Listado de Productos con Precios</h1>
+    <table border="1" class="tabla">
+        <thead>
+            <tr>
+                <th>Código del Producto</th>
+                <th>Marca</th>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Valor</th>
+                <th style="display: none;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for producto in productos %}
+            <tr>
+                <td>{{ producto['Codigo_del_producto'] }}</td>
+                <td>{{ producto['Marca'] }}</td>
+                <td>{{ producto['Codigo'] }}</td>
+                <td>{{ producto['Nombre'] }}</td>
+                <td>{{ producto['Precio'][0]['Fecha'] }}</td>
+                <td>{{ producto['Precio'][0]['Valor'] }}</td>
+                <td><button>pagar</button></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+</body>
+</html>

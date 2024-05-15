@@ -1,0 +1,6 @@
+body{
+    width: 300px; /* Ancho del div */
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    background-color: red; /* Color de fondo para visualizar el div */
+    padding: 20px; 
+}
