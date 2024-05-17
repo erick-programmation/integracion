@@ -1,6 +1,8 @@
-----install
+----librerias para instalar
 pip install virtualenv 
 pip install flask
+pip install SQLAlchemy
+pip install requests
 
 
 ----Git
@@ -12,3 +14,20 @@ git commit -m "comentario del commit"
 git push origin master 
 
 
+
+Se puede comenzar ejecutando el codigo "Products" o "Cambio".
+
+En caso de presentar problemas al ejecutar el codigo Products, debe fijarse que la url esté bien, esta debe ser "http://127.0.0.1:5000/".
+y ejecutar el respectivo codigo con el simbolo de "Ejecutar codigo de Python". En caso de insertar un nuevo producto y este no se ve reflejado
+recuerde recargar el codigo Products. 
+
+Para cambiar de codigo debe cerrar el codigo con "ctrl + c", despues de ejecutar este comando se cerrará el codigo que se esté ejecutando,
+y se deberá ejecutar el codigo deseado de la forma ya comentada, con el simbolo de "Ejecutar codigo de Python".
+
+En caso de presentar problemas al ejecutar el codigo Cambio, asegurese de estar conectado a la api de banco central.
+"https://si3.bcentral.cl/Siete/es/Siete/API?respuesta=", iniciar sesión y recargar el codigo.
+
+Ingrese con las credenciales :
+
+Correo : ER.MUNOZC@DUOCUC.CL
+Contraseña: INTEGRACION2

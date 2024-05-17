@@ -13,7 +13,7 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # Ruta para obtener todos los datos de la tabla product con sus precios
-@app.route('/Products', methods=['GET'])
+@app.route('/', methods=['GET'])
 def obtener_productos_con_precios():
     cursor.execute("""
         SELECT 
